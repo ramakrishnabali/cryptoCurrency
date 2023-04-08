@@ -1,0 +1,65 @@
+/* Write your CSS code here */
+.trackerContainer {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 0px solid transparent;
+}
+
+.heading {
+  color: #00e7ff;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  align-self: center;
+}
+
+.cryptoImage {
+  width: 100%;
+}
+
+.cryptoListContainer {
+  border: 3px solid #00e7ff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.topContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  border: 0px solid transparent;
+  width: 100%;
+  background-color: #00e7ff;
+  margin-left: 0px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #092e33;
+}
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #092e33;
+  list-style-type: none;
+}
